@@ -13,7 +13,7 @@ public class FileUtilTest {
 
     public static void main(String[] args) throws Exception {
 
-        File file = new File("E:/scas-doc/scas_file_download/openacc/BATCH_OPEN_20190828_0001.TXT");
+        File file = new File("E:/scas-doc/scas_file_download/openacc/开户文件/BATCH_OPEN_20191022_0001.TXT");
 
         BufferedReader bufferedReader = FileUtil.openBufferReaderFromFile(file, "UTF-8");
         String firstLine = FileUtil.readBatchLineWithReader(bufferedReader, 1).get(0);

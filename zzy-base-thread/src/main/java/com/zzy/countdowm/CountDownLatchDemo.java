@@ -11,7 +11,6 @@ import java.util.concurrent.TimeUnit;
 public class CountDownLatchDemo implements Runnable {
 
     static final CountDownLatch latch = new CountDownLatch(100);
-    static final CountDownLatchDemo demo = new CountDownLatchDemo();
 
     @Override
     public void run() {
